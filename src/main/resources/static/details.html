@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script src="js/details.js" type="module" defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>details beer</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="images/beer.ico">
+    <link rel="stylesheet" href="css/beer.css">
+
+</head>
+<body>
+<div class="detail">
+    <div class="homebutton">
+        <a href="index.html" >Home</a>
+    </div>
+
+    <h1 id="nameBeer"></h1>
+    <dl id="info">
+        <dt>Country</dt>
+        <dd id="country"></dd>
+        <dt>Alcohol by volume</dt>
+        <dd id="abv"></dd>
+        <dt>Style</dt>
+        <dd id="style"></dd>
+        <dt>Flavours</dt>
+        <dd>
+            <ul id="flavours" class="ul-detail">
+            </ul>
+        </dd>
+
+        <dt>Likes</dt>
+        <dd id="likes"></dd>
+        <dt>Dislikes</dt>
+        <dd id="dislikes"></dd>
+        <dt>Web pages</dt>
+        <dd>
+            <ul id="websiteLinks" class="ul-hyperlink">
+            </ul>
+        </dd>
+    </dl>
+
+    <button id="buttonLike">I like this beer</button>
+    <button id="buttonDislike">I don't like this beer</button>
+
+    <div id="error" class="mistake" hidden>
+        Error, Please contact helpdesk.
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
